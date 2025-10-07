@@ -3,7 +3,6 @@ import { Button } from '@/components/ui/button';
 
 // Force dynamic rendering
 export const dynamic = 'force-dynamic';
-export const runtime = 'edge';
 
 export default function NotFound() {
   return (

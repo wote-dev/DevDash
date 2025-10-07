@@ -1,9 +1,6 @@
 import { auth } from '@clerk/nextjs/server';
 import { NextResponse } from 'next/server';
 
-// Cloudflare Pages requires Edge Runtime
-export const runtime = 'edge';
-
 interface GitHubRepo {
   name: string;
   language: string | null;
