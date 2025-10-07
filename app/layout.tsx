@@ -5,6 +5,9 @@ import Navbar from "@/components/Navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ClerkProvider } from '@clerk/nextjs';
 
+// Force dynamic rendering for the entire app
+export const dynamic = 'force-dynamic';
+
 const inter = Inter({ 
   subsets: ["latin"],
   weight: ["300", "400", "500", "600"],
