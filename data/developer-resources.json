@@ -1,0 +1,536 @@
+{
+  "learningResources": [
+    {
+      "id": "frontend-masters",
+      "name": "Frontend Masters",
+      "category": "Video Courses",
+      "url": "https://frontendmasters.com",
+      "pricing": "$39/month or $390/year",
+      "topics": ["JavaScript", "React", "Vue", "CSS", "Node.js", "TypeScript", "Web Performance"],
+      "level": ["Beginner", "Intermediate", "Advanced"],
+      "rating": 4.9,
+      "bestFor": "Deep dives into frontend technologies with industry experts"
+    },
+    {
+      "id": "egghead",
+      "name": "egghead.io",
+      "category": "Video Courses",
+      "url": "https://egghead.io",
+      "pricing": "Free tier + $250/year",
+      "topics": ["React", "JavaScript", "TypeScript", "Next.js", "Testing", "DevOps"],
+      "level": ["Beginner", "Intermediate", "Advanced"],
+      "rating": 4.7,
+      "bestFor": "Bite-sized lessons on modern web development"
+    },
+    {
+      "id": "javascript-info",
+      "name": "JavaScript.info",
+      "category": "Documentation/Tutorial",
+      "url": "https://javascript.info",
+      "pricing": "Free",
+      "topics": ["JavaScript", "Web APIs", "Browser APIs"],
+      "level": ["Beginner", "Intermediate", "Advanced"],
+      "rating": 4.9,
+      "bestFor": "Comprehensive JavaScript guide from basics to advanced"
+    },
+    {
+      "id": "web-dev",
+      "name": "web.dev",
+      "category": "Blog/Tutorial",
+      "url": "https://web.dev",
+      "pricing": "Free",
+      "topics": ["Web Performance", "PWA", "SEO", "Accessibility", "Best Practices"],
+      "level": ["Beginner", "Intermediate", "Advanced"],
+      "rating": 4.8,
+      "bestFor": "Google's guide to modern web development best practices"
+    },
+    {
+      "id": "freecodecamp",
+      "name": "freeCodeCamp",
+      "category": "Interactive Learning",
+      "url": "https://www.freecodecamp.org",
+      "pricing": "Free",
+      "topics": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Python", "Data Science", "Machine Learning"],
+      "level": ["Beginner", "Intermediate"],
+      "rating": 4.8,
+      "bestFor": "Hands-on learning with certifications"
+    },
+    {
+      "id": "exercism",
+      "name": "Exercism",
+      "category": "Practice",
+      "url": "https://exercism.org",
+      "pricing": "Free",
+      "topics": ["60+ programming languages", "Algorithms", "Problem Solving"],
+      "level": ["Beginner", "Intermediate", "Advanced"],
+      "rating": 4.7,
+      "bestFor": "Practice with mentorship in multiple languages"
+    },
+    {
+      "id": "syntax-fm",
+      "name": "Syntax.fm",
+      "category": "Podcast",
+      "url": "https://syntax.fm",
+      "pricing": "Free",
+      "topics": ["JavaScript", "Web Development", "Career", "Tools", "Frameworks"],
+      "level": ["All levels"],
+      "rating": 4.8,
+      "bestFor": "Stay updated with web dev trends while commuting"
+    },
+    {
+      "id": "josh-comeau-blog",
+      "name": "Josh Comeau's Blog",
+      "category": "Blog",
+      "url": "https://www.joshwcomeau.com",
+      "pricing": "Free",
+      "topics": ["CSS", "React", "JavaScript", "Animations", "Web Development"],
+      "level": ["Intermediate", "Advanced"],
+      "rating": 4.9,
+      "bestFor": "Deep, interactive articles on CSS and React"
+    },
+    {
+      "id": "kent-c-dodds",
+      "name": "Kent C. Dodds",
+      "category": "Courses/Blog",
+      "url": "https://kentcdodds.com",
+      "pricing": "Free blog + paid courses",
+      "topics": ["React", "Testing", "JavaScript", "Career"],
+      "level": ["Intermediate", "Advanced"],
+      "rating": 4.8,
+      "bestFor": "React and testing best practices"
+    },
+    {
+      "id": "roadmap-sh",
+      "name": "roadmap.sh",
+      "category": "Learning Paths",
+      "url": "https://roadmap.sh",
+      "pricing": "Free",
+      "topics": ["Career paths", "Frontend", "Backend", "DevOps", "Full Stack"],
+      "level": ["All levels"],
+      "rating": 4.7,
+      "bestFor": "Structured learning paths for different roles"
+    }
+  ],
+  "toolsByCategory": {
+    "development": [
+      {
+        "name": "VSCode",
+        "description": "Popular code editor with extensive extensions",
+        "url": "https://code.visualstudio.com",
+        "pricing": "Free",
+        "alternatives": ["Cursor", "WebStorm", "Sublime Text"]
+      },
+      {
+        "name": "Postman",
+        "description": "API development and testing platform",
+        "url": "https://www.postman.com",
+        "pricing": "Free tier + paid plans",
+        "alternatives": ["Insomnia", "Bruno", "Thunder Client"]
+      },
+      {
+        "name": "Docker",
+        "description": "Containerization platform",
+        "url": "https://www.docker.com",
+        "pricing": "Free for individuals",
+        "alternatives": ["Podman", "Rancher Desktop"]
+      },
+      {
+        "name": "Git",
+        "description": "Version control system",
+        "url": "https://git-scm.com",
+        "pricing": "Free",
+        "alternatives": ["Mercurial"]
+      }
+    ],
+    "testing": [
+      {
+        "name": "Vitest",
+        "description": "Blazing fast unit test framework",
+        "url": "https://vitest.dev",
+        "pricing": "Free",
+        "alternatives": ["Jest", "Mocha", "Jasmine"]
+      },
+      {
+        "name": "Playwright",
+        "description": "End-to-end testing framework",
+        "url": "https://playwright.dev",
+        "pricing": "Free",
+        "alternatives": ["Cypress", "Selenium", "Puppeteer"]
+      },
+      {
+        "name": "Testing Library",
+        "description": "User-centric testing utilities",
+        "url": "https://testing-library.com",
+        "pricing": "Free",
+        "alternatives": ["Enzyme"]
+      }
+    ],
+    "deployment": [
+      {
+        "name": "Vercel",
+        "description": "Frontend deployment platform",
+        "url": "https://vercel.com",
+        "pricing": "Free tier + paid plans",
+        "alternatives": ["Netlify", "Cloudflare Pages", "AWS Amplify"]
+      },
+      {
+        "name": "Railway",
+        "description": "Infrastructure platform",
+        "url": "https://railway.app",
+        "pricing": "Free tier + usage-based",
+        "alternatives": ["Render", "Fly.io", "Heroku"]
+      },
+      {
+        "name": "Cloudflare",
+        "description": "CDN and edge computing",
+        "url": "https://www.cloudflare.com",
+        "pricing": "Free tier + paid plans",
+        "alternatives": ["AWS CloudFront", "Fastly"]
+      }
+    ],
+    "monitoring": [
+      {
+        "name": "Sentry",
+        "description": "Error tracking and performance monitoring",
+        "url": "https://sentry.io",
+        "pricing": "Free tier + paid plans",
+        "alternatives": ["Bugsnag", "Rollbar", "LogRocket"]
+      },
+      {
+        "name": "Datadog",
+        "description": "Full-stack monitoring platform",
+        "url": "https://www.datadoghq.com",
+        "pricing": "Paid (free trial)",
+        "alternatives": ["New Relic", "Grafana", "Prometheus"]
+      },
+      {
+        "name": "Lighthouse",
+        "description": "Web performance auditing",
+        "url": "https://developers.google.com/web/tools/lighthouse",
+        "pricing": "Free",
+        "alternatives": ["WebPageTest", "GTmetrix"]
+      }
+    ],
+    "databases": [
+      {
+        "name": "PostgreSQL",
+        "description": "Powerful relational database",
+        "url": "https://www.postgresql.org",
+        "pricing": "Free",
+        "alternatives": ["MySQL", "SQLite"]
+      },
+      {
+        "name": "MongoDB",
+        "description": "NoSQL document database",
+        "url": "https://www.mongodb.com",
+        "pricing": "Free tier + paid plans",
+        "alternatives": ["CouchDB", "DynamoDB"]
+      },
+      {
+        "name": "Redis",
+        "description": "In-memory data store",
+        "url": "https://redis.io",
+        "pricing": "Free (self-hosted) + managed options",
+        "alternatives": ["Memcached", "Dragonfly"]
+      },
+      {
+        "name": "Supabase",
+        "description": "Open source Firebase alternative",
+        "url": "https://supabase.com",
+        "pricing": "Free tier + paid plans",
+        "alternatives": ["Firebase", "Appwrite", "PocketBase"]
+      }
+    ],
+    "design": [
+      {
+        "name": "Figma",
+        "description": "Collaborative design tool",
+        "url": "https://www.figma.com",
+        "pricing": "Free tier + paid plans",
+        "alternatives": ["Sketch", "Adobe XD", "Penpot"]
+      },
+      {
+        "name": "Excalidraw",
+        "description": "Virtual whiteboard for sketching",
+        "url": "https://excalidraw.com",
+        "pricing": "Free",
+        "alternatives": ["tldraw", "draw.io"]
+      }
+    ],
+    "productivity": [
+      {
+        "name": "Linear",
+        "description": "Issue tracking and project management",
+        "url": "https://linear.app",
+        "pricing": "Free tier + paid plans",
+        "alternatives": ["Jira", "GitHub Issues", "ClickUp"]
+      },
+      {
+        "name": "Notion",
+        "description": "All-in-one workspace",
+        "url": "https://www.notion.so",
+        "pricing": "Free tier + paid plans",
+        "alternatives": ["Obsidian", "Roam Research", "Craft"]
+      },
+      {
+        "name": "Raycast",
+        "description": "Productivity launcher for macOS",
+        "url": "https://www.raycast.com",
+        "pricing": "Free + paid features",
+        "alternatives": ["Alfred", "Spotlight"]
+      }
+    ]
+  },
+  "codeSnippets": [
+    {
+      "id": "debounce",
+      "title": "Debounce Function",
+      "language": "JavaScript",
+      "category": "Utility",
+      "description": "Delays function execution until after a wait period",
+      "code": "function debounce(func, wait) {\n  let timeout;\n  return function executedFunction(...args) {\n    const later = () => {\n      clearTimeout(timeout);\n      func(...args);\n    };\n    clearTimeout(timeout);\n    timeout = setTimeout(later, wait);\n  };\n}",
+      "usage": "const debouncedSearch = debounce(searchFunction, 300);",
+      "useCase": "Search inputs, resize handlers, scroll events"
+    },
+    {
+      "id": "throttle",
+      "title": "Throttle Function",
+      "language": "JavaScript",
+      "category": "Utility",
+      "description": "Limits function execution to once per specified time period",
+      "code": "function throttle(func, limit) {\n  let inThrottle;\n  return function(...args) {\n    if (!inThrottle) {\n      func.apply(this, args);\n      inThrottle = true;\n      setTimeout(() => inThrottle = false, limit);\n    }\n  };\n}",
+      "usage": "const throttledScroll = throttle(handleScroll, 100);",
+      "useCase": "Scroll handlers, mouse movements, API rate limiting"
+    },
+    {
+      "id": "deep-clone",
+      "title": "Deep Clone Object",
+      "language": "JavaScript",
+      "category": "Utility",
+      "description": "Creates a deep copy of an object",
+      "code": "function deepClone(obj) {\n  if (obj === null || typeof obj !== 'object') return obj;\n  if (obj instanceof Date) return new Date(obj);\n  if (obj instanceof Array) return obj.map(item => deepClone(item));\n  if (obj instanceof Object) {\n    return Object.fromEntries(\n      Object.entries(obj).map(([key, val]) => [key, deepClone(val)])\n    );\n  }\n}",
+      "usage": "const cloned = deepClone(originalObject);",
+      "useCase": "Copying state, preventing mutations"
+    },
+    {
+      "id": "fetch-retry",
+      "title": "Fetch with Retry",
+      "language": "JavaScript",
+      "category": "Network",
+      "description": "Retry failed fetch requests with exponential backoff",
+      "code": "async function fetchWithRetry(url, options = {}, retries = 3, backoff = 300) {\n  try {\n    const response = await fetch(url, options);\n    if (!response.ok) throw new Error(`HTTP ${response.status}`);\n    return response;\n  } catch (error) {\n    if (retries === 0) throw error;\n    await new Promise(resolve => setTimeout(resolve, backoff));\n    return fetchWithRetry(url, options, retries - 1, backoff * 2);\n  }\n}",
+      "usage": "const data = await fetchWithRetry('/api/data');",
+      "useCase": "Reliable API calls, network resilience"
+    },
+    {
+      "id": "local-storage-hook",
+      "title": "useLocalStorage Hook",
+      "language": "TypeScript",
+      "category": "React",
+      "description": "React hook for syncing state with localStorage",
+      "code": "function useLocalStorage<T>(key: string, initialValue: T) {\n  const [storedValue, setStoredValue] = useState<T>(() => {\n    try {\n      const item = window.localStorage.getItem(key);\n      return item ? JSON.parse(item) : initialValue;\n    } catch (error) {\n      return initialValue;\n    }\n  });\n\n  const setValue = (value: T | ((val: T) => T)) => {\n    try {\n      const valueToStore = value instanceof Function ? value(storedValue) : value;\n      setStoredValue(valueToStore);\n      window.localStorage.setItem(key, JSON.stringify(valueToStore));\n    } catch (error) {\n      console.error(error);\n    }\n  };\n\n  return [storedValue, setValue] as const;\n}",
+      "usage": "const [name, setName] = useLocalStorage('name', 'John');",
+      "useCase": "Persistent state, user preferences"
+    },
+    {
+      "id": "error-boundary",
+      "title": "Error Boundary Component",
+      "language": "TypeScript",
+      "category": "React",
+      "description": "Catches JavaScript errors in child component tree",
+      "code": "class ErrorBoundary extends React.Component<\n  { children: React.ReactNode },\n  { hasError: boolean; error?: Error }\n> {\n  constructor(props) {\n    super(props);\n    this.state = { hasError: false };\n  }\n\n  static getDerivedStateFromError(error: Error) {\n    return { hasError: true, error };\n  }\n\n  componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {\n    console.error('Error caught:', error, errorInfo);\n  }\n\n  render() {\n    if (this.state.hasError) {\n      return <h1>Something went wrong.</h1>;\n    }\n    return this.props.children;\n  }\n}",
+      "usage": "<ErrorBoundary><App /></ErrorBoundary>",
+      "useCase": "Graceful error handling in React apps"
+    },
+    {
+      "id": "intersection-observer",
+      "title": "Intersection Observer Hook",
+      "language": "TypeScript",
+      "category": "React",
+      "description": "Detect when element enters viewport",
+      "code": "function useIntersectionObserver(\n  ref: RefObject<Element>,\n  options: IntersectionObserverInit = {}\n) {\n  const [isIntersecting, setIntersecting] = useState(false);\n\n  useEffect(() => {\n    const observer = new IntersectionObserver(([entry]) => {\n      setIntersecting(entry.isIntersecting);\n    }, options);\n\n    if (ref.current) observer.observe(ref.current);\n    return () => observer.disconnect();\n  }, [ref, options]);\n\n  return isIntersecting;\n}",
+      "usage": "const isVisible = useIntersectionObserver(elementRef);",
+      "useCase": "Lazy loading, infinite scroll, animations"
+    },
+    {
+      "id": "api-middleware",
+      "title": "Express Error Handler Middleware",
+      "language": "TypeScript",
+      "category": "Backend",
+      "description": "Centralized error handling for Express apps",
+      "code": "const errorHandler = (\n  err: Error,\n  req: Request,\n  res: Response,\n  next: NextFunction\n) => {\n  console.error(err.stack);\n  \n  if (err.name === 'ValidationError') {\n    return res.status(400).json({ error: err.message });\n  }\n  \n  if (err.name === 'UnauthorizedError') {\n    return res.status(401).json({ error: 'Unauthorized' });\n  }\n  \n  res.status(500).json({ error: 'Internal server error' });\n};",
+      "usage": "app.use(errorHandler);",
+      "useCase": "Express error handling, API development"
+    }
+  ],
+  "apiReferences": [
+    {
+      "name": "MDN Web Docs",
+      "description": "Comprehensive web API documentation",
+      "url": "https://developer.mozilla.org",
+      "topics": ["JavaScript", "Web APIs", "CSS", "HTML"],
+      "rating": 5.0
+    },
+    {
+      "name": "DevDocs",
+      "description": "Unified API documentation browser",
+      "url": "https://devdocs.io",
+      "topics": ["Multiple languages and frameworks"],
+      "rating": 4.9
+    },
+    {
+      "name": "GitHub REST API",
+      "description": "GitHub's official API documentation",
+      "url": "https://docs.github.com/en/rest",
+      "topics": ["GitHub integration", "Version control"],
+      "rating": 4.7
+    },
+    {
+      "name": "Stripe API",
+      "description": "Payment processing API",
+      "url": "https://stripe.com/docs/api",
+      "topics": ["Payments", "Subscriptions", "Financial services"],
+      "rating": 4.9
+    },
+    {
+      "name": "OpenAI API",
+      "description": "AI and language model APIs",
+      "url": "https://platform.openai.com/docs",
+      "topics": ["AI", "Natural language processing", "GPT models"],
+      "rating": 4.6
+    },
+    {
+      "name": "AWS Documentation",
+      "description": "Amazon Web Services documentation",
+      "url": "https://docs.aws.amazon.com",
+      "topics": ["Cloud infrastructure", "Serverless", "Storage", "Compute"],
+      "rating": 4.3
+    }
+  ],
+  "cheatSheets": [
+    {
+      "name": "Git Commands",
+      "url": "https://education.github.com/git-cheat-sheet-education.pdf",
+      "category": "Version Control",
+      "description": "Essential Git commands reference"
+    },
+    {
+      "name": "JavaScript ES6+",
+      "url": "https://devhints.io/es6",
+      "category": "JavaScript",
+      "description": "Modern JavaScript syntax and features"
+    },
+    {
+      "name": "React Hooks",
+      "url": "https://react-hooks-cheatsheet.com",
+      "category": "React",
+      "description": "Complete React Hooks reference"
+    },
+    {
+      "name": "TypeScript",
+      "url": "https://www.typescriptlang.org/cheatsheets",
+      "category": "TypeScript",
+      "description": "TypeScript types and syntax"
+    },
+    {
+      "name": "CSS Flexbox",
+      "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox",
+      "category": "CSS",
+      "description": "Complete guide to Flexbox layout"
+    },
+    {
+      "name": "CSS Grid",
+      "url": "https://css-tricks.com/snippets/css/complete-guide-grid",
+      "category": "CSS",
+      "description": "Complete guide to Grid layout"
+    },
+    {
+      "name": "Vim Commands",
+      "url": "https://vim.rtorr.com",
+      "category": "Editor",
+      "description": "Vim keyboard shortcuts"
+    },
+    {
+      "name": "VSCode Shortcuts",
+      "url": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+      "category": "Editor",
+      "description": "VSCode keyboard shortcuts for macOS"
+    }
+  ],
+  "communityResources": [
+    {
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com",
+      "type": "Q&A",
+      "description": "Programming questions and answers"
+    },
+    {
+      "name": "GitHub Discussions",
+      "url": "https://github.com",
+      "type": "Community",
+      "description": "Project-specific discussions and Q&A"
+    },
+    {
+      "name": "Dev.to",
+      "url": "https://dev.to",
+      "type": "Blog/Community",
+      "description": "Developer articles and discussions"
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com",
+      "type": "News/Discussion",
+      "description": "Tech news and discussions"
+    },
+    {
+      "name": "Reddit - r/programming",
+      "url": "https://reddit.com/r/programming",
+      "type": "Discussion",
+      "description": "General programming discussions"
+    },
+    {
+      "name": "Discord - Reactiflux",
+      "url": "https://www.reactiflux.com",
+      "type": "Chat",
+      "description": "React community Discord server"
+    }
+  ],
+  "newsletters": [
+    {
+      "name": "JavaScript Weekly",
+      "url": "https://javascriptweekly.com",
+      "frequency": "Weekly",
+      "topics": ["JavaScript", "Frontend"]
+    },
+    {
+      "name": "React Status",
+      "url": "https://react.statuscode.com",
+      "frequency": "Weekly",
+      "topics": ["React", "JavaScript"]
+    },
+    {
+      "name": "Node Weekly",
+      "url": "https://nodeweekly.com",
+      "frequency": "Weekly",
+      "topics": ["Node.js", "Backend"]
+    },
+    {
+      "name": "Frontend Focus",
+      "url": "https://frontendfoc.us",
+      "frequency": "Weekly",
+      "topics": ["Frontend", "HTML", "CSS"]
+    },
+    {
+      "name": "Bytes",
+      "url": "https://bytes.dev",
+      "frequency": "Weekly",
+      "topics": ["JavaScript", "Web Development", "Humor"]
+    },
+    {
+      "name": "TLDR",
+      "url": "https://tldr.tech",
+      "frequency": "Daily",
+      "topics": ["Tech news", "Startups", "Programming"]
+    }
+  ]
+}

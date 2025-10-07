@@ -1,0 +1,740 @@
+{
+  "agents": [
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "category": "IDE",
+      "description": "AI-first code editor built on VSCode with powerful AI pair programming features",
+      "website": "https://cursor.sh",
+      "pricing": {
+        "free": "2,000 completions/month",
+        "pro": "$20/month - unlimited completions",
+        "business": "$40/month - enhanced privacy"
+      },
+      "features": [
+        "Chat with your codebase",
+        "Inline AI editing",
+        "Terminal command generation",
+        "Multi-file editing",
+        "Privacy mode (no code indexing)",
+        "Custom rules and instructions"
+      ],
+      "languages": ["All major languages"],
+      "models": ["GPT-4", "Claude 3.5 Sonnet", "GPT-3.5"],
+      "bestFor": ["Full codebase understanding", "Complex refactoring", "Project-wide changes"],
+      "integrations": ["VSCode extensions compatible"],
+      "pros": [
+        "Understands entire codebase context",
+        "Natural chat interface",
+        "Fast and responsive",
+        "Privacy-focused options"
+      ],
+      "cons": [
+        "Requires switching from existing editor",
+        "Still in development",
+        "Some VSCode features missing"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "category": "Code Completion",
+      "description": "AI pair programmer that offers autocomplete-style suggestions as you code",
+      "website": "https://github.com/features/copilot",
+      "pricing": {
+        "free": "Free for students & open source maintainers",
+        "individual": "$10/month or $100/year",
+        "business": "$19/user/month"
+      },
+      "features": [
+        "Real-time code suggestions",
+        "Multi-line completions",
+        "Chat interface (Copilot Chat)",
+        "Command palette integration",
+        "Test generation",
+        "Documentation generation",
+        "Code explanation",
+        "Security vulnerability detection"
+      ],
+      "languages": ["Python", "JavaScript", "TypeScript", "Ruby", "Go", "C++", "Java", "40+ more"],
+      "models": ["Codex", "GPT-4"],
+      "bestFor": ["Autocomplete", "Boilerplate code", "Test writing", "Documentation"],
+      "integrations": ["VSCode", "Visual Studio", "JetBrains IDEs", "Neovim"],
+      "pros": [
+        "Excellent IDE integration",
+        "Fast suggestions",
+        "Large training dataset",
+        "GitHub integration"
+      ],
+      "cons": [
+        "Can suggest outdated patterns",
+        "Limited context window",
+        "Subscription required"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "warp-ai",
+      "name": "Warp AI",
+      "category": "Terminal",
+      "description": "Modern terminal with built-in AI command generation and explanation",
+      "website": "https://www.warp.dev",
+      "pricing": {
+        "free": "Unlimited with rate limits",
+        "team": "$10/user/month"
+      },
+      "features": [
+        "AI command search (#)",
+        "Command explanation",
+        "Error debugging",
+        "Workflow suggestions",
+        "Natural language to commands",
+        "Command history with AI search"
+      ],
+      "languages": ["Shell scripting", "All CLI tools"],
+      "models": ["GPT-4", "Custom models"],
+      "bestFor": ["Terminal workflows", "Command discovery", "Debugging shell errors"],
+      "integrations": ["Native terminal replacement"],
+      "pros": [
+        "Zero context switching",
+        "Beautiful modern UI",
+        "Fast and responsive",
+        "Block-based terminal"
+      ],
+      "cons": [
+        "macOS/Linux only",
+        "Requires terminal switch",
+        "Some traditional features missing"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "cody",
+      "name": "Cody",
+      "category": "Code Completion",
+      "description": "AI coding assistant by Sourcegraph with deep codebase understanding",
+      "website": "https://sourcegraph.com/cody",
+      "pricing": {
+        "free": "Limited usage",
+        "pro": "$9/month",
+        "enterprise": "Custom pricing"
+      },
+      "features": [
+        "Code autocomplete",
+        "Chat with codebase",
+        "Code explanations",
+        "Test generation",
+        "Bug fixing",
+        "Codebase search integration"
+      ],
+      "languages": ["All major languages"],
+      "models": ["Claude 3.5", "GPT-4", "Mixtral", "Custom models"],
+      "bestFor": ["Large codebases", "Enterprise", "Code search integration"],
+      "integrations": ["VSCode", "JetBrains", "Neovim", "Emacs"],
+      "pros": [
+        "Multiple model choices",
+        "Strong enterprise features",
+        "Codebase-aware",
+        "Open source option"
+      ],
+      "cons": [
+        "Less popular than alternatives",
+        "Requires setup for best results",
+        "UI less polished"
+      ],
+      "rating": 4.3
+    },
+    {
+      "id": "tabnine",
+      "name": "Tabnine",
+      "category": "Code Completion",
+      "description": "AI code completion tool with local and cloud options",
+      "website": "https://www.tabnine.com",
+      "pricing": {
+        "free": "Basic completions",
+        "pro": "$12/month",
+        "enterprise": "Custom pricing"
+      },
+      "features": [
+        "AI code completions",
+        "Local model option",
+        "Team learning",
+        "Privacy-focused",
+        "Custom model training",
+        "Whole line completions"
+      ],
+      "languages": ["30+ languages"],
+      "models": ["Proprietary models", "Local models"],
+      "bestFor": ["Privacy-sensitive environments", "Offline work", "Enterprise security"],
+      "integrations": ["VSCode", "JetBrains", "Sublime", "Vim", "Atom", "Emacs"],
+      "pros": [
+        "Can run fully local",
+        "Strong privacy controls",
+        "Wide IDE support",
+        "Team training"
+      ],
+      "cons": [
+        "Less accurate than newer tools",
+        "Limited context awareness",
+        "Fewer features"
+      ],
+      "rating": 4.1
+    },
+    {
+      "id": "amazon-codewhisperer",
+      "name": "Amazon CodeWhisperer",
+      "category": "Code Completion",
+      "description": "AWS's AI code generator with security scanning",
+      "website": "https://aws.amazon.com/codewhisperer",
+      "pricing": {
+        "individual": "Free",
+        "professional": "$19/user/month"
+      },
+      "features": [
+        "Code suggestions",
+        "Reference tracking",
+        "Security scanning",
+        "AWS service integration",
+        "CLI completions",
+        "Built-in bias detection"
+      ],
+      "languages": ["Python", "Java", "JavaScript", "TypeScript", "C#", "15+ more"],
+      "models": ["Proprietary models"],
+      "bestFor": ["AWS development", "Security-conscious teams", "Free tier users"],
+      "integrations": ["VSCode", "JetBrains", "AWS Cloud9", "Lambda"],
+      "pros": [
+        "Completely free tier",
+        "Security scanning included",
+        "AWS optimized",
+        "Reference tracking"
+      ],
+      "cons": [
+        "AWS-centric",
+        "Less accurate than competitors",
+        "Limited community"
+      ],
+      "rating": 3.9
+    },
+    {
+      "id": "replit-ghostwriter",
+      "name": "Replit Ghostwriter",
+      "category": "IDE",
+      "description": "AI pair programmer built into Replit's online IDE",
+      "website": "https://replit.com/ai",
+      "pricing": {
+        "free": "Limited",
+        "core": "$220/year"
+      },
+      "features": [
+        "Code completion",
+        "Code explanation",
+        "Code transformation",
+        "Chat interface",
+        "Proactive debugging",
+        "Generate function"
+      ],
+      "languages": ["50+ languages"],
+      "models": ["GPT-4", "Custom models"],
+      "bestFor": ["Learning", "Quick prototypes", "Browser-based development"],
+      "integrations": ["Replit IDE (browser-based)"],
+      "pros": [
+        "No setup required",
+        "Great for learning",
+        "Collaborative features",
+        "Instant environment"
+      ],
+      "cons": [
+        "Locked to Replit platform",
+        "Less powerful for large projects",
+        "Online only"
+      ],
+      "rating": 4.2
+    },
+    {
+      "id": "aider",
+      "name": "Aider",
+      "category": "CLI Tool",
+      "description": "AI pair programming in your terminal with git integration",
+      "website": "https://aider.chat",
+      "pricing": {
+        "free": "Open source - pay for API usage"
+      },
+      "features": [
+        "Terminal-based chat",
+        "Direct file editing",
+        "Git integration",
+        "Multi-file changes",
+        "Automatic commits",
+        "Works with any editor"
+      ],
+      "languages": ["All languages"],
+      "models": ["GPT-4", "Claude 3.5", "GPT-3.5"],
+      "bestFor": ["Terminal lovers", "Git workflows", "Script automation"],
+      "integrations": ["Works with any editor", "Git"],
+      "pros": [
+        "Open source",
+        "Editor agnostic",
+        "Excellent git integration",
+        "Powerful CLI"
+      ],
+      "cons": [
+        "Command-line only",
+        "Requires API keys",
+        "Learning curve"
+      ],
+      "rating": 4.5
+    }
+  ],
+  "promptLibrary": [
+    {
+      "id": "code-review",
+      "title": "Code Review Request",
+      "category": "Quality Assurance",
+      "prompt": "Review this code for:\n1. Potential bugs or edge cases\n2. Performance issues\n3. Security vulnerabilities\n4. Code style and best practices\n5. Opportunities for refactoring\n\nProvide specific suggestions with examples.",
+      "useCases": ["Code reviews", "Self-review", "Learning"],
+      "effectiveness": 4.8
+    },
+    {
+      "id": "explain-code",
+      "title": "Code Explanation",
+      "category": "Learning",
+      "prompt": "Explain this code in detail:\n1. What does it do at a high level?\n2. How does each section work?\n3. What are the key algorithms or patterns used?\n4. Are there any gotchas or subtle behaviors?\n\nUse simple language and provide examples.",
+      "useCases": ["Understanding legacy code", "Learning", "Documentation"],
+      "effectiveness": 4.9
+    },
+    {
+      "id": "refactor-suggestions",
+      "title": "Refactoring Suggestions",
+      "category": "Code Quality",
+      "prompt": "Suggest refactoring improvements for this code:\n1. How can we make it more readable?\n2. How can we improve performance?\n3. How can we make it more maintainable?\n4. Are there modern patterns we should use?\n5. How can we reduce complexity?\n\nProvide before/after examples.",
+      "useCases": ["Code cleanup", "Technical debt", "Modernization"],
+      "effectiveness": 4.7
+    },
+    {
+      "id": "generate-tests",
+      "title": "Test Generation",
+      "category": "Testing",
+      "prompt": "Generate comprehensive tests for this code:\n1. Unit tests for each function\n2. Edge cases and boundary conditions\n3. Error handling scenarios\n4. Integration tests if applicable\n5. Mock any external dependencies\n\nUse [testing framework] and follow best practices.",
+      "useCases": ["TDD", "Test coverage", "Quality assurance"],
+      "effectiveness": 4.6
+    },
+    {
+      "id": "debug-help",
+      "title": "Debugging Assistance",
+      "category": "Debugging",
+      "prompt": "Help me debug this issue:\n\nError: [paste error]\nCode: [paste code]\nContext: [what you were trying to do]\n\nPlease:\n1. Explain what's causing the error\n2. Provide step-by-step debugging approach\n3. Suggest fixes with code examples\n4. Explain how to prevent this in the future",
+      "useCases": ["Bug fixing", "Error resolution", "Learning"],
+      "effectiveness": 4.8
+    },
+    {
+      "id": "architecture-design",
+      "title": "Architecture Design",
+      "category": "System Design",
+      "prompt": "I need to build [describe feature/system].\n\nRequirements:\n- [list requirements]\n\nPlease suggest:\n1. Overall architecture approach\n2. Key components and their responsibilities\n3. Data flow and interactions\n4. Technology recommendations\n5. Potential challenges and solutions\n\nConsider scalability, maintainability, and best practices.",
+      "useCases": ["System design", "Planning", "Architecture"],
+      "effectiveness": 4.5
+    },
+    {
+      "id": "optimize-performance",
+      "title": "Performance Optimization",
+      "category": "Performance",
+      "prompt": "Analyze this code for performance issues:\n\n[paste code]\n\nFocus on:\n1. Time complexity improvements\n2. Memory usage optimization\n3. Database query optimization (if applicable)\n4. Caching opportunities\n5. Algorithmic improvements\n\nProvide benchmarking suggestions and optimized versions.",
+      "useCases": ["Optimization", "Scaling", "Efficiency"],
+      "effectiveness": 4.6
+    },
+    {
+      "id": "documentation-generation",
+      "title": "Documentation Generation",
+      "category": "Documentation",
+      "prompt": "Generate comprehensive documentation for this code:\n\n1. Function/class description\n2. Parameters and return values\n3. Usage examples\n4. Edge cases and limitations\n5. Related functions/classes\n\nUse [JSDoc/docstring/etc.] format and include inline comments.",
+      "useCases": ["Documentation", "Code clarity", "Team collaboration"],
+      "effectiveness": 4.7
+    },
+    {
+      "id": "security-audit",
+      "title": "Security Audit",
+      "category": "Security",
+      "prompt": "Perform a security audit of this code:\n\nCheck for:\n1. SQL injection vulnerabilities\n2. XSS vulnerabilities\n3. Authentication/authorization issues\n4. Data validation problems\n5. Sensitive data exposure\n6. OWASP Top 10 issues\n\nProvide severity ratings and remediation steps.",
+      "useCases": ["Security review", "Compliance", "Vulnerability detection"],
+      "effectiveness": 4.4
+    },
+    {
+      "id": "api-design",
+      "title": "API Design Helper",
+      "category": "API Development",
+      "prompt": "I need to design an API for [describe purpose].\n\nRequirements:\n- [list requirements]\n\nSuggest:\n1. Endpoint structure and naming\n2. Request/response formats\n3. Error handling approach\n4. Authentication method\n5. Rate limiting strategy\n6. Versioning approach\n\nFollow REST/GraphQL best practices.",
+      "useCases": ["API design", "Backend development", "Integration"],
+      "effectiveness": 4.5
+    }
+  ],
+  "bestPractices": [
+    {
+      "id": "context-is-key",
+      "title": "Provide Rich Context",
+      "description": "The more context you give, the better the AI can help",
+      "tips": [
+        "Include relevant code from multiple files",
+        "Explain what you're trying to achieve",
+        "Describe your tech stack and constraints",
+        "Share error messages in full",
+        "Mention what you've already tried"
+      ],
+      "example": "Instead of 'Fix this bug', say 'This React component is re-rendering too often. I'm using Redux for state management and the issue occurs when the user types in the search field. Here's the component code and the Redux slice...'"
+    },
+    {
+      "id": "be-specific",
+      "title": "Be Specific About What You Want",
+      "description": "Vague requests get vague responses",
+      "tips": [
+        "Specify the programming language/framework",
+        "Mention version requirements",
+        "Define success criteria clearly",
+        "Specify coding style preferences",
+        "Ask for specific output formats"
+      ],
+      "example": "Instead of 'Write a function', say 'Write a TypeScript function that validates email addresses using regex, returns a boolean, and includes JSDoc comments. Use modern ES6+ syntax.'"
+    },
+    {
+      "id": "iterate-refine",
+      "title": "Iterate and Refine",
+      "description": "Don't expect perfection on the first try",
+      "tips": [
+        "Start with a basic request",
+        "Review the output carefully",
+        "Ask for specific improvements",
+        "Request alternative approaches",
+        "Build on previous responses"
+      ],
+      "example": "First: 'Create a user authentication function' → Then: 'Add password hashing' → Then: 'Add rate limiting to prevent brute force' → Then: 'Add multi-factor authentication'"
+    },
+    {
+      "id": "verify-validate",
+      "title": "Always Verify and Validate",
+      "description": "AI can make mistakes or suggest outdated approaches",
+      "tips": [
+        "Test all generated code thoroughly",
+        "Check for deprecated APIs",
+        "Verify security implications",
+        "Confirm performance characteristics",
+        "Review for your specific use case"
+      ],
+      "example": "Don't blindly copy-paste. Run tests, check documentation, and understand what the code does before using it in production."
+    },
+    {
+      "id": "use-chat-history",
+      "title": "Leverage Conversation History",
+      "description": "Build on previous context in the conversation",
+      "tips": [
+        "Reference earlier code in the chat",
+        "Ask follow-up questions",
+        "Request modifications to previous suggestions",
+        "Build features incrementally",
+        "Keep related tasks in one conversation"
+      ],
+      "example": "If AI just helped you create a function, you can say 'Now add error handling to the function we just created' instead of pasting the whole thing again."
+    },
+    {
+      "id": "break-down-complex",
+      "title": "Break Down Complex Tasks",
+      "description": "Tackle large problems piece by piece",
+      "tips": [
+        "Start with high-level design",
+        "Implement one component at a time",
+        "Test each piece before moving on",
+        "Ask for architecture guidance first",
+        "Build incrementally"
+      ],
+      "example": "Instead of 'Build a complete e-commerce site', start with 'Design the database schema for products and users', then 'Create the product listing API', etc."
+    },
+    {
+      "id": "ask-for-explanations",
+      "title": "Ask for Explanations",
+      "description": "Understanding is better than just copying code",
+      "tips": [
+        "Ask 'why' not just 'how'",
+        "Request step-by-step breakdowns",
+        "Learn the patterns being used",
+        "Understand trade-offs",
+        "Ask about alternatives"
+      ],
+      "example": "After getting a solution: 'Can you explain why you used a Map instead of an Object here? What are the trade-offs?'"
+    },
+    {
+      "id": "specify-constraints",
+      "title": "Specify Constraints and Requirements",
+      "description": "Help AI understand your limitations",
+      "tips": [
+        "Mention performance requirements",
+        "State browser/platform compatibility needs",
+        "Specify dependency restrictions",
+        "Note memory/storage limitations",
+        "Clarify accessibility requirements"
+      ],
+      "example": "Write a function to sort this large array, but it needs to work in IE11, can't use more than 100MB of memory, and must complete in under 1 second for 1 million items."
+    },
+    {
+      "id": "use-examples",
+      "title": "Provide Input/Output Examples",
+      "description": "Show exactly what you expect",
+      "tips": [
+        "Give sample inputs",
+        "Show expected outputs",
+        "Include edge case examples",
+        "Demonstrate the format you want",
+        "Show error cases"
+      ],
+      "example": "I need a function that transforms: Input: 'hello world' → Output: 'Hello World', Input: 'HELLO' → Output: 'Hello', Input: '' → Output: ''"
+    },
+    {
+      "id": "learn-from-output",
+      "title": "Learn from AI Output",
+      "description": "Use AI as a learning tool, not just a code generator",
+      "tips": [
+        "Study the patterns AI uses",
+        "Look up unfamiliar concepts",
+        "Try to implement variations yourself",
+        "Ask about best practices",
+        "Request learning resources"
+      ],
+      "example": "After getting a solution using Promises: 'Can you explain the Promise chain pattern you used and suggest resources to learn more about async patterns in JavaScript?'"
+    }
+  ],
+  "useCases": [
+    {
+      "id": "learning-new-framework",
+      "title": "Learning a New Framework",
+      "description": "Use AI to accelerate learning and get past initial hurdles",
+      "workflow": [
+        "Ask for a high-level overview of the framework",
+        "Request a simple 'Hello World' example",
+        "Build small features incrementally",
+        "Ask to explain unfamiliar patterns",
+        "Request best practices and common pitfalls"
+      ],
+      "tips": [
+        "Start with official docs, use AI to clarify",
+        "Ask for comparisons to frameworks you know",
+        "Request project structure suggestions",
+        "Get help with configuration and setup"
+      ]
+    },
+    {
+      "id": "debugging-production-issue",
+      "title": "Debugging Production Issues",
+      "description": "Quickly diagnose and fix critical bugs",
+      "workflow": [
+        "Share the error message and stack trace",
+        "Provide relevant code context",
+        "Describe the expected vs actual behavior",
+        "Ask for possible root causes",
+        "Request step-by-step debugging approach",
+        "Get suggestions for quick fixes and long-term solutions"
+      ],
+      "tips": [
+        "Include environment details",
+        "Share recent changes that might be related",
+        "Ask about monitoring and logging strategies",
+        "Request prevention strategies"
+      ]
+    },
+    {
+      "id": "code-refactoring",
+      "title": "Refactoring Legacy Code",
+      "description": "Modernize and improve existing codebases",
+      "workflow": [
+        "Share the current code and its issues",
+        "Ask for a refactoring plan",
+        "Get suggestions for modern patterns",
+        "Request step-by-step refactoring approach",
+        "Ask for tests to ensure behavior doesn't change"
+      ],
+      "tips": [
+        "Refactor incrementally",
+        "Keep tests running throughout",
+        "Ask about migration strategies",
+        "Consider backward compatibility"
+      ]
+    },
+    {
+      "id": "api-integration",
+      "title": "Integrating Third-Party APIs",
+      "description": "Quickly understand and implement API integrations",
+      "workflow": [
+        "Share the API documentation",
+        "Ask for implementation examples",
+        "Request error handling patterns",
+        "Get help with authentication",
+        "Ask about rate limiting and caching strategies"
+      ],
+      "tips": [
+        "Start with authentication",
+        "Test with small requests first",
+        "Ask about common gotchas",
+        "Request retry and error handling logic"
+      ]
+    },
+    {
+      "id": "performance-optimization",
+      "title": "Optimizing Performance",
+      "description": "Identify and fix performance bottlenecks",
+      "workflow": [
+        "Share performance metrics and goals",
+        "Provide the slow code",
+        "Ask for profiling suggestions",
+        "Request optimization strategies",
+        "Get help implementing improvements",
+        "Ask for benchmarking approaches"
+      ],
+      "tips": [
+        "Measure before optimizing",
+        "Focus on the biggest bottlenecks",
+        "Consider trade-offs",
+        "Ask about caching strategies"
+      ]
+    },
+    {
+      "id": "writing-tests",
+      "title": "Writing Comprehensive Tests",
+      "description": "Generate thorough test suites quickly",
+      "workflow": [
+        "Share the code to be tested",
+        "Specify your testing framework",
+        "Ask for test cases covering all scenarios",
+        "Request edge case tests",
+        "Get help with mocking dependencies",
+        "Ask for integration test strategies"
+      ],
+      "tips": [
+        "Start with happy path tests",
+        "Add edge cases incrementally",
+        "Request test coverage strategies",
+        "Ask about testing best practices"
+      ]
+    },
+    {
+      "id": "documentation",
+      "title": "Writing Documentation",
+      "description": "Create clear, comprehensive documentation",
+      "workflow": [
+        "Share the code to document",
+        "Specify documentation format (JSDoc, Markdown, etc.)",
+        "Ask for inline comments",
+        "Request API documentation",
+        "Get help with README and guides",
+        "Ask for usage examples"
+      ],
+      "tips": [
+        "Document as you code",
+        "Include examples liberally",
+        "Explain the 'why', not just the 'what'",
+        "Request different documentation types"
+      ]
+    },
+    {
+      "id": "architecture-planning",
+      "title": "Planning System Architecture",
+      "description": "Design scalable, maintainable systems",
+      "workflow": [
+        "Describe your requirements and constraints",
+        "Ask for architecture options",
+        "Request pros/cons of each approach",
+        "Get help with technology selection",
+        "Ask about scalability considerations",
+        "Request design patterns recommendations"
+      ],
+      "tips": [
+        "Consider future requirements",
+        "Ask about trade-offs explicitly",
+        "Request alternative architectures",
+        "Think about deployment and operations"
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "category": "Best for Code Completion",
+      "winner": "GitHub Copilot",
+      "reasoning": "Most mature, best IDE integration, fastest suggestions",
+      "alternatives": ["Tabnine (for privacy)", "Cody (for flexibility)"]
+    },
+    {
+      "category": "Best for Codebase Understanding",
+      "winner": "Cursor",
+      "reasoning": "Indexes entire codebase, excellent chat interface, multi-file editing",
+      "alternatives": ["Cody (for large codebases)", "GitHub Copilot Chat"]
+    },
+    {
+      "category": "Best for Terminal Work",
+      "winner": "Warp AI",
+      "reasoning": "Native terminal integration, zero context switching, beautiful UX",
+      "alternatives": ["Aider (for git workflows)", "GitHub Copilot CLI"]
+    },
+    {
+      "category": "Best for Privacy",
+      "winner": "Tabnine",
+      "reasoning": "Can run fully local, no code sent to cloud, team training",
+      "alternatives": ["Cursor (privacy mode)", "Self-hosted Cody"]
+    },
+    {
+      "category": "Best Free Option",
+      "winner": "Amazon CodeWhisperer",
+      "reasoning": "Completely free tier with security scanning",
+      "alternatives": ["GitHub Copilot (students)", "Cursor (limited)"]
+    },
+    {
+      "category": "Best for Learning",
+      "winner": "Replit Ghostwriter",
+      "reasoning": "Great explanations, instant environment, collaborative features",
+      "alternatives": ["GitHub Copilot Chat", "Cursor"]
+    },
+    {
+      "category": "Best for Enterprise",
+      "winner": "Cody",
+      "reasoning": "Strong security features, codebase search, custom models, self-hosted option",
+      "alternatives": ["GitHub Copilot Business", "Tabnine Enterprise"]
+    }
+  ],
+  "tips": [
+    {
+      "category": "General",
+      "tip": "Use multiple AI tools for different tasks - they complement each other"
+    },
+    {
+      "category": "General",
+      "tip": "Always review AI-generated code for security issues before deploying"
+    },
+    {
+      "category": "Prompting",
+      "tip": "Include file paths and line numbers when discussing specific code"
+    },
+    {
+      "category": "Prompting",
+      "tip": "Use comments in your code to guide AI suggestions in the right direction"
+    },
+    {
+      "category": "Workflow",
+      "tip": "Set up custom rules/instructions in your AI tools for consistent output"
+    },
+    {
+      "category": "Workflow",
+      "tip": "Use AI for boilerplate, spend your time on business logic and architecture"
+    },
+    {
+      "category": "Learning",
+      "tip": "Ask AI to explain code in different ways until you truly understand it"
+    },
+    {
+      "category": "Learning",
+      "tip": "Use AI to explore alternative implementations and learn different patterns"
+    },
+    {
+      "category": "Productivity",
+      "tip": "Create a prompt library for common tasks you do repeatedly"
+    },
+    {
+      "category": "Productivity",
+      "tip": "Use keyboard shortcuts to access AI tools without breaking flow"
+    }
+  ]
+}

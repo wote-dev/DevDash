@@ -11,6 +11,8 @@ const navLinks = [
   { href: "/", label: "Overview" },
   { href: "/repositories", label: "Repositories" },
   { href: "/insights", label: "Insights" },
+  { href: "/ai-tools", label: "AI Tools" },
+  { href: "/resources", label: "Resources" },
 ];
 
 export default function Navbar() {
