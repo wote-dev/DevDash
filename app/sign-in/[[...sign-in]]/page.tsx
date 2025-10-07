@@ -2,6 +2,7 @@ import { SignIn } from '@clerk/nextjs'
 
 // Force dynamic rendering
 export const dynamic = 'force-dynamic';
+export const runtime = 'edge';
 
 export default function SignInPage() {
   return (
