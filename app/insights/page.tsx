@@ -1,6 +1,9 @@
 "use client";
 
 import { useState, useEffect } from "react";
+
+// Force dynamic rendering to prevent build-time errors with Clerk
+export const dynamic = 'force-dynamic';
 import { useUser } from "@clerk/nextjs";
 import { useTheme } from "next-themes";
 import Link from "next/link";
