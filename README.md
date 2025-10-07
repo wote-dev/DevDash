@@ -1,8 +1,10 @@
 # DevDash 🚀
 
 <div align="center">
-  <h3>A Modern Developer Portfolio Dashboard</h3>
-  <p>Track your GitHub activity, visualize your coding patterns, and showcase your work in style.</p>
+  <h3>Your Complete Developer Command Center</h3>
+  <p>Track GitHub activity, explore AI coding tools, access curated dev resources, and showcase your work—all in one beautiful dashboard.</p>
+  
+  <p><em>More than just a portfolio. A comprehensive toolkit for modern developers.</em></p>
   
   <p>
     <a href="#features">Features</a> •

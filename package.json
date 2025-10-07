@@ -1,6 +1,7 @@
 {
   "name": "devdash",
   "version": "0.1.0",
+  "description": "Your complete developer command center - Track GitHub activity, explore AI coding tools, and access curated dev resources in one beautiful dashboard",
   "private": true,
   "scripts": {
     "dev": "next dev",
